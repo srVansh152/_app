@@ -1,0 +1,31 @@
+
+.main {
+    width: 83%;
+    margin-left: 17%;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f4f4f4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #202224;
+    border-radius: 10px;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .main {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
